@@ -15,7 +15,7 @@ public class TriggerFallingPlatform : MonoBehaviour
             return;
         }
 
-        body.gameObject.GetComponent<DalayedFall>().QueueFall();
+        body.gameObject.GetComponent<DelayedFall>().QueueFall();
 
         // queued = true;
         // Debug.Log("OnControllerColliderHit");

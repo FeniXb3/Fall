@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
 
-public class DalayedFall : MonoBehaviour
+public class DelayedFall : MonoBehaviour
 {
     public bool queued;
     public float delay = 3;
