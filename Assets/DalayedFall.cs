@@ -26,6 +26,7 @@ public class DalayedFall : MonoBehaviour
             return;
         }
 
+        queued = true;
         DOVirtual.DelayedCall(delay, Fall);
     }
 
