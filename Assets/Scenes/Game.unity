@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 159569605}
   - component: {fileID: 159569611}
   - component: {fileID: 159569610}
+  - component: {fileID: 159569609}
   - component: {fileID: 159569612}
   m_Layer: 0
   m_Name: Platform
@@ -231,6 +232,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &159569609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159569604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c54538e805a7eee79a5e6f87b592521a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  queued: 0
+  delay: 3
 --- !u!114 &159569610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -299,6 +314,7 @@ GameObject:
   - component: {fileID: 231022848}
   - component: {fileID: 231022854}
   - component: {fileID: 231022853}
+  - component: {fileID: 231022852}
   - component: {fileID: 231022855}
   m_Layer: 0
   m_Name: Platform (1)
@@ -393,6 +409,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &231022852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231022847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c54538e805a7eee79a5e6f87b592521a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  queued: 0
+  delay: 3
 --- !u!114 &231022853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -604,6 +634,7 @@ GameObject:
   - component: {fileID: 828313838}
   - component: {fileID: 828313844}
   - component: {fileID: 828313843}
+  - component: {fileID: 828313842}
   - component: {fileID: 828313845}
   m_Layer: 0
   m_Name: Platform (2)
@@ -698,6 +729,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &828313842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828313837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c54538e805a7eee79a5e6f87b592521a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  queued: 0
+  delay: 3
 --- !u!114 &828313843
 MonoBehaviour:
   m_ObjectHideFlags: 0
