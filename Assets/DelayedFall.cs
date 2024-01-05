@@ -16,7 +16,10 @@ public class DelayedFall : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            queued = false;
+        }
     }
 
     public void QueueFall()
