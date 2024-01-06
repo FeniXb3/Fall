@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class GravityReseter : MonoBehaviour
 {
-    public Rigidbody body;
+    Rigidbody body;
     public KeyCode resetKey;
     // Start is called before the first frame update
     void Start()
     {
-        
+        body = GetComponent<Rigidbody>();
     }
     
     // Update is called once per frame
