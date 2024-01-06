@@ -30,7 +30,7 @@ public class DelayedFall : MonoBehaviour
         }
 
         queued = true;
-        DOVirtual.DelayedCall(delay, Fall);
+        transform.DOShakeRotation(delay, 10, 10, 30, false, ShakeRandomnessMode.Harmonic).onComplete = Fall;
     }
 
     void Fall()
