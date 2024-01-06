@@ -263,7 +263,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 798a0953f8861a83f9b17b7f38b905f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  body: {fileID: 159569611}
   resetKey: 0
 --- !u!54 &159569611
 Rigidbody:
@@ -288,7 +287,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -305,6 +304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingPositon: {x: 0, y: 0, z: 0}
+  startingRotationAngles: {x: 0, y: 0, z: 0}
 --- !u!1 &231022847
 GameObject:
   m_ObjectHideFlags: 0
@@ -445,7 +445,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 798a0953f8861a83f9b17b7f38b905f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  body: {fileID: 231022854}
   resetKey: 0
 --- !u!54 &231022854
 Rigidbody:
@@ -470,7 +469,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -487,6 +486,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingPositon: {x: 0, y: 0, z: 0}
+  startingRotationAngles: {x: 0, y: 0, z: 0}
 --- !u!1 &542508511
 GameObject:
   m_ObjectHideFlags: 0
@@ -770,7 +770,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 798a0953f8861a83f9b17b7f38b905f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  body: {fileID: 828313844}
   resetKey: 0
 --- !u!54 &828313844
 Rigidbody:
@@ -795,7 +794,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -812,6 +811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingPositon: {x: 0, y: 0, z: 0}
+  startingRotationAngles: {x: 0, y: 0, z: 0}
 --- !u!1 &874605735
 GameObject:
   m_ObjectHideFlags: 0
@@ -1439,6 +1439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingPositon: {x: 0, y: 0, z: 0}
+  startingRotationAngles: {x: 0, y: 0, z: 0}
 --- !u!114 &1868460823
 MonoBehaviour:
   m_ObjectHideFlags: 0

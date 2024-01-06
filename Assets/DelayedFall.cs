@@ -15,9 +15,12 @@ public class DelayedFall : MonoBehaviour
     public bool fadeOut = false;
     public ShakeRandomnessMode randomnessMode = ShakeRandomnessMode.Harmonic;
 
+    Rigidbody body;
+
     // Start is called before the first frame update
     void Start()
     {
+        body = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -47,6 +50,7 @@ public class DelayedFall : MonoBehaviour
 
     void Fall()
     {
-        GetComponent<Rigidbody>().useGravity = true;
+        body.useGravity = true;
+        body.isKinematic = false;
     }
 }

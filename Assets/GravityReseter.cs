@@ -18,6 +18,7 @@ public class GravityReseter : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             body.useGravity = false;
+            body.isKinematic = true;
         }
     }
 }
