@@ -5,6 +5,7 @@ using DG.Tweening;
 
 public class DelayedFall : MonoBehaviour
 {
+    public Tween tween;
     public bool queued;
     public float delay = 3;
 
@@ -19,6 +20,10 @@ public class DelayedFall : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             queued = false;
+            if (tween != null)
+            {
+                tween.Kill();
+            }
         }
     }
 
@@ -30,7 +35,8 @@ public class DelayedFall : MonoBehaviour
         }
 
         queued = true;
-        transform.DOShakeRotation(delay, 10, 10, 30, false, ShakeRandomnessMode.Harmonic).onComplete = Fall;
+        tween = transform.DOShakeRotation(delay, 10, 10, 30, false, ShakeRandomnessMode.Harmonic);
+        tween.onComplete = Fall;
     }
 
     void Fall()
