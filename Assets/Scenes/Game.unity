@@ -246,6 +246,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   queued: 0
   delay: 3
+  strength: 10
+  vibrato: 10
+  randomness: 30
+  fadeOut: 0
+  randomnessMode: 1
 --- !u!114 &159569610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -423,6 +428,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   queued: 0
   delay: 3
+  strength: 10
+  vibrato: 10
+  randomness: 30
+  fadeOut: 0
+  randomnessMode: 1
 --- !u!114 &231022853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -743,6 +753,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   queued: 0
   delay: 3
+  strength: 10
+  vibrato: 10
+  randomness: 30
+  fadeOut: 0
+  randomnessMode: 1
 --- !u!114 &828313843
 MonoBehaviour:
   m_ObjectHideFlags: 0

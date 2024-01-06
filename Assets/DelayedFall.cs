@@ -9,6 +9,12 @@ public class DelayedFall : MonoBehaviour
     public bool queued;
     public float delay = 3;
 
+    public float strength = 10f;
+    public int vibrato = 10;
+    public float randomness = 30f;
+    public bool fadeOut = false;
+    public ShakeRandomnessMode randomnessMode = ShakeRandomnessMode.Harmonic;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,7 +41,7 @@ public class DelayedFall : MonoBehaviour
         }
 
         queued = true;
-        tween = transform.DOShakeRotation(delay, 10, 10, 30, false, ShakeRandomnessMode.Harmonic);
+        tween = transform.DOShakeRotation(delay, strength, vibrato, randomness, fadeOut, randomnessMode);
         tween.onComplete = Fall;
     }
 
